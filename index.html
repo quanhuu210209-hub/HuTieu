@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thảo Hủ Tiếu Mì Xào | Ngon – Rẻ – Đậm Vị Quê Nhà</title>
+    <meta name="description" content="Quán Thảo hủ tiếu mì xào – Phục vụ các món ăn sáng bình dân: hủ tiếu, bánh canh, mì xào, nui. Ngon, sạch, giá hợp lý.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="images/Logo.png">
+</head>
+<body>
+
+<!-- Floating Particles (ambient decoration) -->
+<div class="particles" id="particles"></div>
+
+<!-- ═══════════════ HEADER ═══════════════ -->
+<header class="header" id="header">
+    <div class="container header-content">
+        <a href="#home" class="logo">
+            <img src="images/Logo.png" alt="Logo Thảo hủ tiếu mì xào">
+            <span>Thảo hủ tiếu mì xào</span>
+        </a>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Mở menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <nav class="nav" id="navMenu">
+            <a href="#home">Trang chủ</a>
+            <a href="#food">Món ăn</a>
+            <a href="#drink">Nước uống</a>
+            <a href="#about">Giới thiệu</a>
+            <a href="#contact" class="btn">Liên hệ</a>
+        </nav>
+    </div>
+</header>
+
+<!-- ═══════════════ HERO BANNER ═══════════════ -->
+<section id="home" class="banner">
+    <img src="images/hu-tieu.jpg" alt="Banner hủ tiếu thơm ngon">
+
+    <div class="banner-text">
+        <div class="banner-kicker">
+            Quán ăn sáng bình dân · Đậm vị quê nhà
+        </div>
+
+        <h1 class="display">
+            <span class="highlight">Ngon</span> – Rẻ<br>
+            Đậm Vị<br>
+            <span class="highlight">Quê Nhà</span>
+        </h1>
+
+        <p>
+            Hủ tiếu, bánh canh, mì xào, nui — tất cả được nấu từ tâm huyết, 
+            phục vụ tận tình với hương vị quen thuộc mỗi sáng sớm.
+        </p>
+
+        <div class="banner-specs">
+            <span>🍜 Hủ tiếu</span>
+            <span>🥢 Mì xào</span>
+            <span>🍲 Bánh canh</span>
+            <span>🧆 Nui</span>
+        </div>
+
+        <div class="banner-cta">
+            <a href="#food" class="btn-primary">Xem thực đơn</a>
+            <a href="#contact" class="btn-secondary">Liên hệ ngay</a>
+        </div>
+    </div>
+
+    <div class="scroll-indicator">
+        <span>Khám phá</span>
+        <div class="scroll-line"></div>
+    </div>
+</section>
+
+<!-- ═══════════════ MÓN ĂN ═══════════════ -->
+<section id="food" class="section">
+    <div class="container">
+        <div class="section-kicker reveal">Thực đơn</div>
+        <h2 class="reveal">Món Ăn Sáng</h2>
+        <p class="section-desc reveal">
+            Mỗi tô, mỗi dĩa đều được chế biến tươi mới mỗi ngày, 
+            từ nguyên liệu sạch và hương vị đậm đà truyền thống.
+        </p>
+
+        <div class="card-grid">
+            <div class="card">
+                <img src="images/hu-tieu.jpg" alt="Hủ tiếu xương" loading="lazy">
+                <h3>Hủ tiếu xương</h3>
+                <p>Nước lèo trong veo, thơm ngọt tự nhiên từ xương heo hầm kỹ</p>
+            </div>
+
+            <div class="card">
+                <img src="images/banh-canh.jpg" alt="Bánh canh giò heo" loading="lazy">
+                <h3>Bánh canh giò heo</h3>
+                <p>Sợi bánh canh dai mềm, nước dùng sánh béo đậm đà</p>
+            </div>
+
+            <div class="card">
+                <img src="images/Mi-Xao.jpg" alt="Mì xào bò/trứng" loading="lazy">
+                <h3>Mì xào bò/trứng</h3>
+                <p>Mì xào lửa lớn, sợi mì vàng giòn thơm lừng hành tỏi</p>
+            </div>
+
+            <div class="card">
+                <img src="images/nui-trung.jpg" alt="Nui xào trứng" loading="lazy">
+                <h3>Nui xào trứng</h3>
+                <p>Nui xoắn mềm xào cùng trứng béo ngậy, đơn giản mà ngon</p>
+            </div>
+
+            <div class="card">
+                <img src="images/nui-xaobo.jpg" alt="Nui xào bò" loading="lazy">
+                <h3>Nui xào bò</h3>
+                <p>Nui xào cùng bò tươi mềm, đậm vị tiêu hành thơm phức</p>
+            </div>
+
+            <div class="card">
+                <img src="images/nui.jpg" alt="Nui giò heo/xương" loading="lazy">
+                <h3>Nui giò heo/xương</h3>
+                <p>Nui nấu nước lèo giò heo, thơm ngọt béo ngậy từng muỗng</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ═══════════════ NƯỚC UỐNG ═══════════════ -->
+<section id="drink" class="section bg-light">
+    <div class="container">
+        <div class="section-kicker reveal">Giải khát</div>
+        <h2 class="reveal">Nước Uống</h2>
+        <p class="section-desc reveal">
+            Giải khát mát lạnh với đa dạng loại nước uống, 
+            từ nước ngọt đến cà phê và nước trái cây tươi.
+        </p>
+
+        <div class="card-grid">
+            <div class="card">
+                <img src="images/coca.jpg" alt="Cocacola" loading="lazy">
+                <h3>Cocacola</h3>
+                <p>Giải khát mát lạnh</p>
+            </div>
+
+            <div class="card">
+                <img src="images/peppsi.jpg" alt="Pepsi" loading="lazy">
+                <h3>Pepsi</h3>
+                <p>Giải khát mát lạnh</p>
+            </div>
+
+            <div class="card">
+                <img src="images/7up.jpg" alt="7UP" loading="lazy">
+                <h3>7UP</h3>
+                <p>Giải khát mát lạnh</p>
+            </div>
+
+            <div class="card">
+                <img src="images/C2.jpg" alt="C2 Chanh" loading="lazy">
+                <h3>C2 Chanh</h3>
+                <p>Giải khát mát lạnh</p>
+            </div>
+
+            <div class="card">
+                <img src="images/olong.jpg" alt="Ôlong Tea Plus" loading="lazy">
+                <h3>Ôlong Tea Plus</h3>
+                <p>Giải khát mát lạnh</p>
+            </div>
+
+            <div class="card">
+                <img src="images/247.webp" alt="Nước 247" loading="lazy">
+                <h3>Nước 247</h3>
+                <p>Giải khát mát lạnh</p>
+            </div>
+
+            <div class="card">
+                <img src="images/red-bull.jpg" alt="Red Bull" loading="lazy">
+                <h3>Red Bull</h3>
+                <p>Nước tăng lực</p>
+            </div>
+
+            <div class="card">
+                <img src="images/sting-vang.jpg" alt="Sting Vàng" loading="lazy">
+                <h3>Sting Vàng</h3>
+                <p>Giải khát mát lạnh</p>
+            </div>
+
+            <div class="card">
+                <img src="images/sting.jpg" alt="Sting Đỏ" loading="lazy">
+                <h3>Sting Đỏ</h3>
+                <p>Giải khát mát lạnh</p>
+            </div>
+
+            <div class="card">
+                <img src="images/tra-xanh.jpg" alt="Trà xanh 0 độ" loading="lazy">
+                <h3>Trà xanh 0 độ</h3>
+                <p>Giải khát mát lạnh</p>
+            </div>
+
+            <div class="card">
+                <img src="images/tra-tac.jpg" alt="Trà tắc" loading="lazy">
+                <h3>Trà tắc</h3>
+                <p>Giải khát mát lạnh</p>
+            </div>
+
+            <div class="card">
+                <img src="images/ca-phe-da.jpg" alt="Cà phê đá" loading="lazy">
+                <h3>Cà phê đá</h3>
+                <p>Đậm đà thơm ngon</p>
+            </div>
+
+            <div class="card">
+                <img src="images/nuoc-cam.jpg" alt="Nước cam" loading="lazy">
+                <h3>Nước Cam</h3>
+                <p>Giải khát mát lạnh</p>
+            </div>
+
+            <div class="card">
+                <img src="images/nuoc-dua.jpg" alt="Nước dừa" loading="lazy">
+                <h3>Nước Dừa</h3>
+                <p>Giải khát mát lạnh</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ═══════════════ GIỚI THIỆU ═══════════════ -->
+<section id="about" class="section">
+    <div class="container">
+        <div class="section-kicker reveal">Về chúng tôi</div>
+        <h2 class="reveal">Giới Thiệu</h2>
+        <p class="about-text reveal">
+            Quán chúng tôi phục vụ các món ăn và nước uống bình dân,
+            cam kết ngon – sạch – giá hợp lý, mang hương vị quen thuộc cho mọi người.
+            Từ tô hủ tiếu nóng hổi buổi sáng đến ly cà phê đậm đà, 
+            tất cả đều được chuẩn bị với tâm huyết và sự tận tình.
+        </p>
+    </div>
+</section>
+
+<!-- ═══════════════ LIÊN HỆ ═══════════════ -->
+<section id="contact" class="section bg-light">
+    <div class="container">
+        <div class="section-kicker reveal">Liên lạc</div>
+        <h2 class="reveal">Liên Hệ</h2>
+        <div class="contact-box reveal">
+            <p>📍 Địa chỉ: E3/1 ấp 5 6 Xã Vĩnh Lộc Thới Hòa Tp.HCM</p>
+            <p>📞 Điện thoại: 093 758 0866</p>
+            <p>⏰ Giờ mở cửa: 7:00 – 9:00 sáng</p>
+            <a href="tel:0900000000" class="btn">📞 Gọi đặt món ngay</a>
+        </div>
+    </div>
+</section>
+
+<!-- ═══════════════ FOOTER ═══════════════ -->
+<footer class="footer">
+    <div class="container">
+        <p>© 2026 Thảo Hủ Tiếu Mì Xào | Ngon – Rẻ – Đậm Vị Quê Nhà</p>
+    </div>
+</footer>
+
+<!-- ═══════════════ JAVASCRIPT ═══════════════ -->
+<script>
+    // ── Mobile Menu Toggle ──
+    const menuToggle = document.getElementById('menuToggle');
+    const navMenu = document.getElementById('navMenu');
+
+    menuToggle.addEventListener('click', () => {
+        navMenu.classList.toggle('open');
+        menuToggle.classList.toggle('active');
+    });
+
+    // Close menu when clicking a link
+    navMenu.querySelectorAll('a').forEach(link => {
+        link.addEventListener('click', () => {
+            navMenu.classList.remove('open');
+            menuToggle.classList.remove('active');
+        });
+    });
+
+    // ── Scroll Reveal Animation ──
+    const revealObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('in');
+            }
+        });
+    }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+
+    document.querySelectorAll('.reveal, .card').forEach(el => {
+        revealObserver.observe(el);
+    });
+
+    // ── Header background on scroll ──
+    const header = document.getElementById('header');
+    let lastScroll = 0;
+
+    window.addEventListener('scroll', () => {
+        const scroll = window.scrollY;
+        if (scroll > 50) {
+            header.style.background = 'rgba(10, 8, 6, 0.92)';
+            header.style.boxShadow = '0 8px 32px rgba(0, 0, 0, 0.4)';
+        } else {
+            header.style.background = 'rgba(10, 8, 6, 0.78)';
+            header.style.boxShadow = 'none';
+        }
+        lastScroll = scroll;
+    }, { passive: true });
+
+    // ── Parallax Hero Image ──
+    const heroBanner = document.querySelector('.banner > img');
+    if (heroBanner) {
+        window.addEventListener('scroll', () => {
+            const scroll = window.scrollY;
+            const maxScroll = window.innerHeight;
+            if (scroll < maxScroll) {
+                const progress = scroll / maxScroll;
+                const scale = 1.08 + progress * 0.12;
+                const translate = progress * 30;
+                heroBanner.style.transform = `scale(${scale}) translateY(${translate}px)`;
+            }
+        }, { passive: true });
+    }
+
+    // ── Floating Particles ──
+    const particlesContainer = document.getElementById('particles');
+    const particleColors = [
+        'rgba(235, 170, 84, 0.5)',
+        'rgba(255, 107, 61, 0.4)',
+        'rgba(118, 204, 86, 0.35)',
+        'rgba(242, 185, 101, 0.4)',
+    ];
+
+    function createParticle() {
+        const particle = document.createElement('div');
+        particle.classList.add('particle');
+        
+        const size = Math.random() * 4 + 2;
+        const color = particleColors[Math.floor(Math.random() * particleColors.length)];
+        const left = Math.random() * 100;
+        const duration = Math.random() * 18 + 12;
+        const delay = Math.random() * 10;
+
+        particle.style.cssText = `
+            width: ${size}px;
+            height: ${size}px;
+            background: ${color};
+            left: ${left}%;
+            bottom: -10px;
+            animation-duration: ${duration}s;
+            animation-delay: ${delay}s;
+            box-shadow: 0 0 ${size * 3}px ${color};
+        `;
+
+        particlesContainer.appendChild(particle);
+
+        // Remove and recreate for continuous effect
+        setTimeout(() => {
+            particle.remove();
+            createParticle();
+        }, (duration + delay) * 1000);
+    }
+
+    // Create initial particles
+    for (let i = 0; i < 18; i++) {
+        createParticle();
+    }
+
+    // ── Smooth hover effect for interactive elements ──
+    document.querySelectorAll('a, button, .card').forEach(el => {
+        el.addEventListener('mouseenter', () => {
+            if (!el.classList.contains('card')) {
+                el.style.transition = 'transform 0.3s cubic-bezier(0.16, 1, 0.3, 1)';
+            }
+        });
+    });
+
+    // ── Cursor glow effect on cards ──
+    document.querySelectorAll('.card').forEach(card => {
+        card.addEventListener('mousemove', (e) => {
+            const rect = card.getBoundingClientRect();
+            const x = e.clientX - rect.left;
+            const y = e.clientY - rect.top;
+            card.style.setProperty('--mouse-x', `${x}px`);
+            card.style.setProperty('--mouse-y', `${y}px`);
+        });
+    });
+</script>
+
+</body>
+</html>
